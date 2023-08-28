@@ -1,7 +1,7 @@
-solving a simple 4*4 Gridworld almost similar to openAI gym frozenlake using Monte-Carlo method Reinforcement Learning
+##solving a simple 4*4 Gridworld almost similar to openAI gym frozenlake using Monte-Carlo method Reinforcement Learning
 
 WRITTEN BY Garika Akshay
-this program is using Reinfrocement learning to solve a 4*4 gridworld like frozen lake enviroment in open ai gym
+This program is using Reinfrocement learning to solve a 4*4 gridworld like frozen lake enviroment in open ai gym
 the method used is policy iteration whitch is one of fundamental manners of Dynamic Programing
 
  | S | O | O | O |  
@@ -20,7 +20,7 @@ self.rewards = {(3, 3): 5, (1, 3): -2, (2, 1): -2, (3, 1): -2}
 for example reward to go in (3,3) in enviroment witch is the goal will be +5 so agent gets +5 reward whenever go to cell (3,3)
 the size of Gridworld can be changed in GridWorld calss by adding space actions
 
-Algorithm Flow
+#Algorithm Flow
 
 first we initialize a random policy that indicate prefered moves in every cell:
 
@@ -115,7 +115,7 @@ step:225
       | R |  | R |  | D |  | U |   
       | D |  | D |  | D |  | D |   
       | R |  | R |  | R |   
-Q-table:
+#Q-table:
       (0, 0): {'D': 1.4231111446110687, 'R': 2.7825312901637713},
       (0, 1): {'L': 1.1954361778316396, 'D': 2.7742013116068813, 'R': 1.2509234550696697},
       (0, 2): {'L': 1.6175230984831273, 'D': 0.17183770184907848, 'R': 0.10523112338768514}, 
