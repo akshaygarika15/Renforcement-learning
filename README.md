@@ -1,4 +1,4 @@
-## solving a simple 4*4 Gridworld almost similar to openAI gym frozenlake using Monte-Carlo method Reinforcement Learning
+# Solving a simple 4*4 Gridworld almost similar to openAI gym frozenlake using Monte-Carlo method Reinforcement Learning
 
 WRITTEN BY Garika Akshay
 This program is using Reinfrocement learning to solve a 4*4 gridworld like frozen lake enviroment in open ai gym
