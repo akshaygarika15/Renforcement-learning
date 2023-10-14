@@ -55,7 +55,7 @@ Policy:
 | D |  | D |  | D |  | D |   
 | R |  | R |  | R |   
 
-### Step 200
+Step 200
 ```plaintext
 Policy:  
 | R |  | D |  | L |  | L |   
@@ -63,8 +63,8 @@ Policy:
 | D |  | D |  | D |  | D |   
 | R |  | R |  | R |
 
-##Q-Table
-#Here's a snippet of the Q-table:
+Q-Table
+Here's a snippet of the Q-table:
 
 (0, 0): {'D': 1.42, 'R': 2.78},
 (0, 1): {'L': 1.20, 'D': 2.77, 'R': 1.25},
